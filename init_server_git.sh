@@ -3,7 +3,7 @@ while getopts u:n:p: flag
 do
     case "${flag}" in
         u) username=${OPTARG};;
-        n) projectname=${OPTRAG};;
+        n) projectname=${OPTARG};;
         p) path=${OPTARG};;
        
     esac
