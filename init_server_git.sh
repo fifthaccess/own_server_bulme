@@ -10,4 +10,4 @@ done
 
 
 sudo mkdir  "${projectname}.git"
-git init ${path}/${username}.git --bare
+git init ${path}/${projectname}.git --bare
