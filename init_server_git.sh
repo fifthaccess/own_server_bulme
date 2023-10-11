@@ -10,5 +10,9 @@ do
 done
 
 echo $username
+echo $projectname
+echo $path
+
+
 #sudo mkdir  "${projectname}.git"
-git init ${path}/${projectname}.git --bare
+#git init ${path}/${projectname}.git --bare
