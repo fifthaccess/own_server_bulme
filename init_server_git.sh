@@ -1,4 +1,4 @@
-while getopts u:a:f: flag
+while getopts u:n:p: flag
 do
     case "${flag}" in
         u) username=${OPTARG};;
