@@ -1,3 +1,4 @@
+OPTIND=1
 while getopts u:n:p: flag
 do
     case "${flag}" in
@@ -9,5 +10,5 @@ do
 done
 
 
-sudo mkdir  "${projectname}.git"
+#sudo mkdir  "${projectname}.git"
 git init ${path}/${projectname}.git --bare
