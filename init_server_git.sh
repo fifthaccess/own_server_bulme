@@ -1,0 +1,13 @@
+while getopts u:a:f: flag
+do
+    case "${flag}" in
+        u) username=${OPTARG};;
+        n) projectname=${OPTRAG};;
+        p) path=${OPTARG};;
+       
+    esac
+done
+
+
+sudo mkdir  "${projectname}.git"
+git init ${path}/${username}.git --bare
