@@ -9,6 +9,6 @@ do
     esac
 done
 
-
+echo $username
 #sudo mkdir  "${projectname}.git"
 git init ${path}/${projectname}.git --bare
